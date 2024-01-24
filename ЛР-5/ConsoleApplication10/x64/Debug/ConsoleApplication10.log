@@ -1,0 +1,30 @@
+﻿  ConsoleApplication10.cpp
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(11,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(4,13): error C2011: Point: переопределение типа "class"
+  (компиляция исходного файла "ConsoleApplication10.cpp")
+  D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(4,7):
+   см. объявление "Point"
+  
+D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(65,12): error C2027: использование неопределенного типа "Point"
+  (компиляция исходного файла "ConsoleApplication10.cpp")
+  D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(4,7):
+   см. объявление "Point"
+  
+D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(67,8): error C2084: функция "double distance(double,double)" уже имеет текст реализации
+  (компиляция исходного файла "ConsoleApplication10.cpp")
+  D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(67,8):
+  см. предыдущее определение "distance"
+  
+D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(71,8): error C2084: функция "double InputValidation(double,std::string)" уже имеет текст реализации
+  (компиляция исходного файла "ConsoleApplication10.cpp")
+  D:\ConsoleApplication10\ConsoleApplication10\Point.cpp(71,8):
+  см. предыдущее определение "InputValidation"
+  
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(71,18): error C2011: PointArray: переопределение типа "class"
+  D:\ConsoleApplication10\ConsoleApplication10\PointArray.cpp(7,7):
+   см. объявление "PointArray"
+  
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(139,17): error C2027: использование неопределенного типа "PointArray"
+  D:\ConsoleApplication10\ConsoleApplication10\PointArray.cpp(7,7):
+   см. объявление "PointArray"
+  
